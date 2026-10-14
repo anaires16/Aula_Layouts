@@ -1,0 +1,113 @@
+.principal {
+    width: 100%;
+    min-height: 430px;
+    padding: 25px 6.5% 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+    background-color: #191919;
+}
+
+/* TEXTO À ESQUERDA */
+
+.conteudo {
+    width: 48%;
+    position: relative;
+    z-index: 2;
+}
+
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    line-height: 1;
+    color: white;
+}
+
+.titulo span {
+    display: block;
+}
+
+.titulo .folhinha {
+    display: block;
+    width: 85px;
+    height: 100px;
+    object-fit: contain;
+    flex-shrink: 0;
+
+    margin-left: -20px;
+    margin-right: -20px;
+    transform: scale(1.15);
+}
+
+
+.descricao {
+    color: #eeeeee;
+    font-size: 17px;
+    line-height: 1.3;
+    margin-bottom: 27px;
+}
+
+/* QUATRO GARRAFINHAS */
+
+.produtos {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.produtos img {
+    width: 100px;
+    height: 180px;
+    object-fit: contain;
+}
+
+/* GARRAFA GRANDE À DIREITA */
+
+.garrafa-principal {
+    width: 60%;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.garrafa-principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: rotate(-2deg);
+}
+
+/* SETA NA LATERAL */
+
+.seta {
+    position: absolute;
+    top: 10%;
+    right: -15px;
+
+    width: 50px;
+    height: 50px;
+
+    border: 1px solid #888888;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+
+    font-size: 35px;
+    font-weight: normal;
+    cursor: pointer;
+}

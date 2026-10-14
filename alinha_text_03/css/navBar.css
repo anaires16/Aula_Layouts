@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101010;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.pagina {
+    width: calc(100% - 10px);
+    min-height: calc(100vh - 10px);
+    margin: 5px;
+    background-color: #191919;
+    color: white;
+    overflow: hidden;
+}
+
+.cabecalho {
+    height: 65px;
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 92px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu a {
+    color: #eeeeee;
+    text-decoration: none;
+    font-size: 16px;
+}
